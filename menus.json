@@ -1,0 +1,49 @@
+[{
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "product": "Chicken",
+    "image": "chicken.png",
+    "price": "6.99",
+    "name": "chicken"
+  },{
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea1"
+    },
+    "product": "Pork",
+    "image": "chicken.png",
+    "price": "7.99",
+    "name": "pork"
+  },{
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea2"
+    },
+    "product": "Vegetable",
+    "image": "chicken.png",
+    "price": "5.99",
+    "name": "vegetable"
+  },{
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea3"
+    },
+    "product": "Fried Momo",
+    "image": "chicken.png",
+    "price": "8.99",
+    "name": "fried momo"
+  },{
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea4"
+    },
+    "product": "Chilli Momo",
+    "image": "chicken.png",
+    "price": "8.99",
+    "name": "chilli momo"
+  },{
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea5"
+    },
+    "product": "Momo",
+    "image": "chicken.png",
+    "price": "5.99",
+    "name": "momo"
+}]

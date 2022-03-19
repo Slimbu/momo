@@ -7,12 +7,11 @@ function initRoutes(app) {
     homeController().index
 
     app.get('/', homeController().index)
+    app.get('/login', authController().login)
+    app.get('/register', authController().register)
 
     app.get('/cart', cartController().index)
-
-    app.get('/login', authController().login)
-    
-    app.get('/register', authController().register)
+    app.post('/update_cart', cartController().update)
 
 }
 

@@ -1,7 +1,12 @@
+const Menu = require('../../models/menu')
+
 function homeController() {
     return {
-        index(req, res) {
-            res.render('home')
+        async index(req, res) {
+
+            const momos = await Menu.find()
+            return res.render('home', { momos: momos })
+
         }
     }
 }
